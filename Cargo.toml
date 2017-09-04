@@ -1,6 +1,15 @@
 [package]
-name = "mobile-example"
+name = "rumo-example"
 version = "0.1.0"
-authors = ["Bailey Cosier <bailey.cosier@gmail.com>"]
+authors = ["Bailey Cosier <bailey@cosier.ca>"]
+
+[lib]
+crate-type = ["dylib"]
 
 [dependencies]
+# rumo = "^0.1.3"
+android_ffi = "^0.1.0"
+
+[package.metadata.android]
+package_name = "com.rustamatics.rumo.example"
+compile_sdk_version = 25

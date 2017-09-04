@@ -12,4 +12,14 @@ android_ffi = "^0.1.0"
 
 [package.metadata.android]
 package_name = "com.rustamatics.rumo.example"
-compile_sdk_version = 25
+icon = "@mipmap/ic_rumo_example"
+
+compile_sdk_version = 26
+build_tools_version = "26.0.1"
+target_sdk_version = 15
+
+[package.metadata.android.application_attributes]
+app_name = "Rumo Example"
+color_accent = "#db5613"
+color_primary = "#129ec9"
+color_primary_park = "#0583aa"
